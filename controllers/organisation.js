@@ -1,5 +1,5 @@
-import BadRequestError from "../Errors/BadRequest";
-import NotFoundError from "../Errors/NotFoundError";
+import BadRequestError from "../Errors/BadRequest.js";
+import NotFoundError from "../Errors/NotFoundError.js";
 import asyncWrapper from "../middleware/async.js";
 import organisationModel from "../models/organisation.js";
 

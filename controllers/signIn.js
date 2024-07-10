@@ -2,7 +2,7 @@ import NotFoundError from '../Errors/NotFoundError.js';
 import BadRequestError from '../Errors/BadRequest.js';
 import jwt from 'jsonwebtoken';
 import bcrypt from 'bcrypt';
-import user from './models/user.js';
+// import user from '../models/user.js';
 import asyncWrapper from '../middleware/async.js';
 import userModel from '../models/user.js';
 

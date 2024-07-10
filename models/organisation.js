@@ -1,4 +1,4 @@
-import database from "../DB/connectDB";
+import database from "../DB/connectDB.js";
 import { DataTypes } from "sequelize";
 
 const organisationModel = database.define("organisation",{

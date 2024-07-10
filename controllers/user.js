@@ -1,13 +1,13 @@
 // import userModel
-import NotFoundError from "../Errors/NotFoundError";
-import BadRequestError from "../Errors/BadRequest";
+import NotFoundError from "../Errors/NotFoundError.js";
+import BadRequestError from "../Errors/BadRequest.js";
 import { validationResult } from "express-validator";
 import jwt from "jsonwebtoken";
 import dotenv from "dotenv";
 dotenv.config()
 import bcrypt from 'bcrypt';
-import asyncWrapper from "../middleware/async";
-import userModel from "../models/user";
+import asyncWrapper from "../middleware/async.js";
+import userModel from "../models/user.js";
 
 const findUser = async (req,res) =>{
     const { id } = req.params;
